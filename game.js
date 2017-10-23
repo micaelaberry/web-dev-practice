@@ -7,14 +7,14 @@ var guess = Number(stringGuess);
 
 //check guess
 if(guess === secretNumber){
-alert("You got it right!");	
+alert("You got it right! You go Glen Coco!");	
 }
 //check if number is higher
 else if(guess > secretNumber) {
 alert("Too High... Guess again.");
 }
 
-else {
-alert("Too low. Guess again.");
-}
 //otherwise, check if lower
+else {
+alert("Too low... Guess again.");
+}
