@@ -7,7 +7,7 @@ var guess = Number(stringGuess);
 
 //check guess
 if(guess === secretNumber){
-alert("You got it right! You go Glen Coco!");	
+alert("You got it right! You go Glen Coco! Party Time!");	
 }
 //check if number is higher
 else if(guess > secretNumber) {
