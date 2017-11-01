@@ -30,11 +30,11 @@ while(counter <= 333){
 	counter+=1;
 }
 
-onsole.log("Printing odd numbers between 300 and 333");
-var counter = 300;
+onsole.log("Print all numbers divisible by 5 AND 3 between 5 and 50<");
+var counter = 5;
 
 while(counter <= 333){
-	if(counter % 2 !== 0){
+	if(counter % 5 ===0 && counter % 3===0 ){
 		console.log(counter);
 	}
 	counter+=1;
