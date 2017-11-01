@@ -12,9 +12,16 @@ console.log(counter);
 counter+=2;
 }
 
-console.log("Printing odd numbers between 300 and 333");
+while(counter <= 40){
+	if(counter % 2 === 0){
+		console.log(counter);
+	}
+	counter+=1;
+}
+
+/*console.log("Printing odd numbers between 300 and 333");
 var counter = 300;
 while (counter < 333){
 console.log(counter);
 counter+=1;
-}
+}*/
